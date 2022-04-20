@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C9480002810700B0051ABEB /* ScrollDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C947FFF2810700B0051ABEB /* ScrollDown.swift */; };
 		FC0E8955265ED5970000166B /* GradBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E8954265ED5970000166B /* GradBars.swift */; };
 		FC2077A327A1805000C9D3CA /* TestLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2077A227A1805000C9D3CA /* TestLoaderView.swift */; };
 		FC5717B2271F0582008318F5 /* ActivityCircleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5717B1271F0582008318F5 /* ActivityCircleComponent.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C947FFF2810700B0051ABEB /* ScrollDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollDown.swift; sourceTree = "<group>"; };
 		FC0E8954265ED5970000166B /* GradBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradBars.swift; sourceTree = "<group>"; };
 		FC2077A227A1805000C9D3CA /* TestLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLoaderView.swift; sourceTree = "<group>"; };
 		FC5717B1271F0582008318F5 /* ActivityCircleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCircleComponent.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				FCD4E347280AF58100808073 /* ProfileActionButtonView.swift */,
 				FCD4E349280AF68000808073 /* ProfileContainerView.swift */,
 				FCD4E353280F441300808073 /* CaptureView.swift */,
+				7C947FFF2810700B0051ABEB /* ScrollDown.swift */,
 				FCE8EFAD25C452B000F9F0BE /* Assets.xcassets */,
 				FCE8EFB225C452B000F9F0BE /* Info.plist */,
 				FCE8EFAF25C452B000F9F0BE /* Preview Content */,
@@ -189,6 +192,7 @@
 				FCC061A8263C283F00379412 /* TextviewWithScrollview.swift in Sources */,
 				FCD4E34A280AF68000808073 /* ProfileContainerView.swift in Sources */,
 				FC6EC4FA272B073D002E1D50 /* Padding.swift in Sources */,
+				7C9480002810700B0051ABEB /* ScrollDown.swift in Sources */,
 				FCD4E354280F441300808073 /* CaptureView.swift in Sources */,
 				FC5717B2271F0582008318F5 /* ActivityCircleComponent.swift in Sources */,
 				FC94716825F3D81F00BA0393 /* TotalView.swift in Sources */,

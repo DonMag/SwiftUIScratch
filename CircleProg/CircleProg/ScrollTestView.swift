@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ScrollTestView: View {
 	
-	@State var numRows: Int = 0
+	@State var numRows: Int = 30
 	
 	var body: some View {
 		
@@ -30,8 +30,14 @@ struct ScrollTestView: View {
 							}
 						}
 						.frame(maxWidth: .infinity)
-						.background(Color.blue)
+//						.background(Color.blue)
+						.background(
+							GeometryReader { proxy in
+								Color.blue.onAppear { print(proxy.size.height) }
+							}
+						)
 						.onTapGesture {
+							print("g", geometry.size.height)
 							if numRows > 0 {
 								numRows -= 1
 							}

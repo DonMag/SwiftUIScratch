@@ -9,6 +9,8 @@ import SwiftUI
 
 struct CaptureView: View {
 	
+	@State private var isSharePresented: Bool = false
+
 	var testCard: some View {
 		VStack {
 			Spacer()
@@ -33,7 +35,7 @@ struct CaptureView: View {
 								.frame(height: 40)
 								.padding(.leading)
 							VStack(alignment: .leading, spacing: 3) {
-								Text("AppName")
+								Text("Just Testing")
 									.foregroundColor(.white)
 									.font(.headline)
 									.fontWeight(.bold)
@@ -63,11 +65,23 @@ struct CaptureView: View {
 			Button("Capture testCard View") {
 				let img = testCard.snapshot(atSize: CGSize(width: 320.0, height: 240.0))
 				saveImage(img)
+				//InstagramSharingUtils.shareToInstagramStories(img)
+				share(items: [img])
 			}
 			.padding()
 			.foregroundColor(.white)
 			.background(Color.red)
 			.cornerRadius(40)
+			Button("Share app") {
+				self.isSharePresented = true
+			}
+			.sheet(isPresented: $isSharePresented, onDismiss: {
+				print("Dismiss")
+			}, content: {
+				let img = testCard.snapshot(atSize: CGSize(width: 320.0, height: 240.0))
+				ActivityViewController(activityItems: [img])
+			})
+
 			Spacer()
 		}
 		.background(Color(red: 1.0, green: 1.0, blue: 0.0))
@@ -176,3 +190,80 @@ struct CaptureView_Previews: PreviewProvider {
         CaptureView()
     }
 }
+
+struct InstagramSharingUtils {
+	
+	// Returns a URL if Instagram Stories can be opened, otherwise returns nil.
+	private static var instagramStoriesUrl: URL? {
+		if let url = URL(string: "instagram-stories://share?source_application=com.DonMag.CircleProg") {
+			if UIApplication.shared.canOpenURL(url) {
+				return url
+			}
+		}
+		return nil
+	}
+	
+	// Convenience wrapper to return a boolean for `instagramStoriesUrl`
+	static var canOpenInstagramStories: Bool {
+		return instagramStoriesUrl != nil
+	}
+	
+	// If Instagram Stories is available, writes the image to the pasteboard and
+	// then opens Instagram.
+	static func shareToInstagramStories(_ image: UIImage) {
+		
+		// Check that Instagram Stories is available.
+		guard let instagramStoriesUrl = instagramStoriesUrl else {
+			return
+		}
+		
+		// Convert the image to data that can be written to the pasteboard.
+		let imageDataOrNil = UIImage.pngData(image)
+		guard let imageData = imageDataOrNil() else {
+			print("🙈 Image data not available.")
+			return
+		}
+		let pasteboardItem = ["com.instagram.sharedSticker.backgroundImage": imageData]
+		let pasteboardOptions = [UIPasteboard.OptionsKey.expirationDate: Date().addingTimeInterval(60 * 5)]
+		
+		// Add the image to the pasteboard. Instagram will read the image from the pasteboard when it's opened.
+		UIPasteboard.general.setItems([pasteboardItem], options: pasteboardOptions)
+		
+		// Open Instagram.
+		UIApplication.shared.open(instagramStoriesUrl, options: [:], completionHandler: nil)
+	}
+}
+
+@discardableResult
+func share(
+	items: [Any],
+	excludedActivityTypes: [UIActivity.ActivityType]? = nil
+) -> Bool {
+	guard let source = UIApplication.shared.windows.last?.rootViewController else {
+		return false
+	}
+	let vc = UIActivityViewController(
+		activityItems: items,
+		applicationActivities: nil
+	)
+	vc.excludedActivityTypes = excludedActivityTypes
+	vc.popoverPresentationController?.sourceView = source.view
+	source.present(vc, animated: true)
+	return true
+}
+
+
+struct ActivityViewController: UIViewControllerRepresentable {
+	
+	var activityItems: [Any]
+	var applicationActivities: [UIActivity]? = nil
+	
+	func makeUIViewController(context: UIViewControllerRepresentableContext<ActivityViewController>) -> UIActivityViewController {
+		let controller = UIActivityViewController(activityItems: activityItems, applicationActivities: applicationActivities)
+		return controller
+	}
+	
+	func updateUIViewController(_ uiViewController: UIActivityViewController, context: UIViewControllerRepresentableContext<ActivityViewController>) {}
+	
+}
+
