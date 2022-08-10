@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+//struct ContentView: View {
+//	var body: some View {
+//		var addUp = 0
+//		addUp += 2 //error
+//	}
+//}
 struct ContentView: View {
 	@State var progress: CGFloat = 0.0
 	
@@ -39,8 +45,11 @@ struct ContentView: View {
 	}
 
 	var body: some View {
+
 		let gradient = LinearGradient(gradient: Gradient(colors: [.yellow, .red]), startPoint: .leading, endPoint: .trailing)
 		let lineWidth: CGFloat = 25
+
+		var addUp = 0
 
 		ZStack {
 			Circle()
@@ -59,6 +68,7 @@ struct ContentView: View {
 		.gesture(
 			TapGesture()
 				.onEnded { _ in
+					addUp += 2 //error
 					self.progress += 0.1
 					self.getTimeline()
 				}

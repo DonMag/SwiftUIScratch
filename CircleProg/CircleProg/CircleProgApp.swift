@@ -24,7 +24,11 @@ struct CircleProgApp: App {
 			//ScrollTestView()
 			//ProfileActionButtonView()
 			//ProfileContainerView()
-			CaptureView()
+			//CaptureView()
+			//ChatView()
+			//SecureParentView()
+			//ListHeaders()
+			ImageAnim()
         }
     }
 }
