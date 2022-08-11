@@ -28,7 +28,8 @@ struct CircleProgApp: App {
 			//ChatView()
 			//SecureParentView()
 			//ListHeaders()
-			ImageAnim()
+			//ImageAnim()
+			EmbedScrollView()
         }
     }
 }
