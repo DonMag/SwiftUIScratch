@@ -27,6 +27,7 @@
 		FCD4E34A280AF68000808073 /* ProfileContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD4E349280AF68000808073 /* ProfileContainerView.swift */; };
 		FCD4E354280F441300808073 /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD4E353280F441300808073 /* CaptureView.swift */; };
 		FCDCBA0028A52C8300D15CD9 /* EmbedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDCB9FF28A52C8300D15CD9 /* EmbedScrollView.swift */; };
+		FCDCBA6E28B021AB00D15CD9 /* RandArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDCBA6D28B021AB00D15CD9 /* RandArray.swift */; };
 		FCE8EFAA25C452B000F9F0BE /* CircleProgApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8EFA925C452B000F9F0BE /* CircleProgApp.swift */; };
 		FCE8EFAC25C452B000F9F0BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8EFAB25C452B000F9F0BE /* ContentView.swift */; };
 		FCE8EFAE25C452B000F9F0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE8EFAD25C452B000F9F0BE /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		FCD4E349280AF68000808073 /* ProfileContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileContainerView.swift; sourceTree = "<group>"; };
 		FCD4E353280F441300808073 /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
 		FCDCB9FF28A52C8300D15CD9 /* EmbedScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbedScrollView.swift; sourceTree = "<group>"; };
+		FCDCBA6D28B021AB00D15CD9 /* RandArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandArray.swift; sourceTree = "<group>"; };
 		FCE8EFA625C452B000F9F0BE /* CircleProg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleProg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE8EFA925C452B000F9F0BE /* CircleProgApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgApp.swift; sourceTree = "<group>"; };
 		FCE8EFAB25C452B000F9F0BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				FC5723EC285BCBCC00E5136A /* ListHeaders.swift */,
 				FC1D50AB2879ECB200E18AB7 /* ImageAnim.swift */,
 				FCDCB9FF28A52C8300D15CD9 /* EmbedScrollView.swift */,
+				FCDCBA6D28B021AB00D15CD9 /* RandArray.swift */,
 				FCE8EFAD25C452B000F9F0BE /* Assets.xcassets */,
 				FCE8EFB225C452B000F9F0BE /* Info.plist */,
 				FCE8EFAF25C452B000F9F0BE /* Preview Content */,
@@ -205,6 +208,7 @@
 				FC814FF327BE89C8009029CB /* ScrollTestView.swift in Sources */,
 				FCBB939A27B6CB12001548A8 /* MaskScroll.swift in Sources */,
 				FCC061A8263C283F00379412 /* TextviewWithScrollview.swift in Sources */,
+				FCDCBA6E28B021AB00D15CD9 /* RandArray.swift in Sources */,
 				FCD4E34A280AF68000808073 /* ProfileContainerView.swift in Sources */,
 				FC6EC4FA272B073D002E1D50 /* Padding.swift in Sources */,
 				7C9480002810700B0051ABEB /* ScrollDown.swift in Sources */,

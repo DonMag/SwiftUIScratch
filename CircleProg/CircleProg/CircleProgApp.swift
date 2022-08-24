@@ -29,7 +29,8 @@ struct CircleProgApp: App {
 			//SecureParentView()
 			//ListHeaders()
 			//ImageAnim()
-			EmbedScrollView()
+			//EmbedScrollView()
+			RandArray()
         }
     }
 }
