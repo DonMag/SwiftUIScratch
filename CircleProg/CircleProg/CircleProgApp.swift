@@ -30,7 +30,9 @@ struct CircleProgApp: App {
 			//ListHeaders()
 			//ImageAnim()
 			//EmbedScrollView()
-			RandArray()
+			//RandArray()
+			//TextFiltering()
+			CustomField()
         }
     }
 }
