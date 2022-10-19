@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C8EF97A290065AD00250CCF /* AnimScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8EF979290065AD00250CCF /* AnimScroll.swift */; };
 		7C9480002810700B0051ABEB /* ScrollDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C947FFF2810700B0051ABEB /* ScrollDown.swift */; };
 		FC001796282B01C9009296C4 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC001795282B01C9009296C4 /* ChatView.swift */; };
 		FC0E8955265ED5970000166B /* GradBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E8954265ED5970000166B /* GradBars.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C8EF979290065AD00250CCF /* AnimScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimScroll.swift; sourceTree = "<group>"; };
 		7C947FFF2810700B0051ABEB /* ScrollDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollDown.swift; sourceTree = "<group>"; };
 		FC001795282B01C9009296C4 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		FC0E8954265ED5970000166B /* GradBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradBars.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				FC53247028D2077B004DE16D /* StackSpace.swift */,
 				FCE6E6B028F83D2700564BA4 /* WithUIKitButton.swift */,
 				FCE6E6E428FDC29400564BA4 /* SafeTestView.swift */,
+				7C8EF979290065AD00250CCF /* AnimScroll.swift */,
 				FCC204E728FF0F0100AFD6E1 /* BotToTopView.swift */,
 				FCE6E6B228F83E1D00564BA4 /* UIKitButtonView.xib */,
 				FCE6E6B628F8402400564BA4 /* FromXIBView.xib */,
@@ -251,6 +254,7 @@
 				FC94716825F3D81F00BA0393 /* TotalView.swift in Sources */,
 				FCE8EFAC25C452B000F9F0BE /* ContentView.swift in Sources */,
 				FCAE1CF7269E0047001F76FA /* MapTestView.swift in Sources */,
+				7C8EF97A290065AD00250CCF /* AnimScroll.swift in Sources */,
 				FCE8EFAA25C452B000F9F0BE /* CircleProgApp.swift in Sources */,
 				FC0E8955265ED5970000166B /* GradBars.swift in Sources */,
 				FCE6E6B128F83D2700564BA4 /* WithUIKitButton.swift in Sources */,
