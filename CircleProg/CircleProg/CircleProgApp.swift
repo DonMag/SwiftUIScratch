@@ -32,7 +32,12 @@ struct CircleProgApp: App {
 			//EmbedScrollView()
 			//RandArray()
 			//TextFiltering()
-			CustomField()
+			//CustomField()
+			//ImageMask()
+			//StackSpace()
+			//WithUIKitButton()
+			//SafeTestView()
+			BotToTopView()
         }
     }
 }

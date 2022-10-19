@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ScrollTestView: View {
+struct xScrollTestView: View {
 	
 	@State var numRows: Int = 30
 	
@@ -62,6 +62,32 @@ struct ScrollTestView: View {
 		
 	}
 
+}
+
+struct ScrollTestView: View {
+	var body: some View {
+		ScrollView([.horizontal, .vertical]){
+			ScrollViewReader { proxy in
+				VStack(spacing: 100){
+					ForEach(1..<50){ i in
+						let x: CGFloat = i % 2 == 0 ? 0.0 : 400.0
+						Button(action: {
+							proxy.scrollTo(i, anchor: .center)
+						}, label: {
+							Text("Number \(i)")
+						})
+						.background(Color.green)
+						.padding(.trailing, x)
+						//.padding(.leading, Double(i)*20)
+							.id(i)
+					}
+				}
+				.frame(maxWidth: .infinity, alignment: .leading)
+				.background(Color.yellow)
+			}
+		}
+	}
+	
 }
 
 struct ScrollTestView_Previews: PreviewProvider {
