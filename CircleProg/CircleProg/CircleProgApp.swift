@@ -7,8 +7,11 @@
 
 import SwiftUI
 
+
 @main
 struct CircleProgApp: App {
+	@StateObject private var timeObject = TimeManager()
+	
     var body: some Scene {
         WindowGroup {
             //ContentView()
@@ -37,7 +40,10 @@ struct CircleProgApp: App {
 			//StackSpace()
 			//WithUIKitButton()
 			//SafeTestView()
-			BotToTopView()
+			//BotToTopView()
+			//ImageMaskingView()
+			TextTransition()
+			//BoxesView().environmentObject(timeObject)
         }
     }
 }

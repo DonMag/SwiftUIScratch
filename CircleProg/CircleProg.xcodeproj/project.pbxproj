@@ -24,10 +24,12 @@
 		FC814FF327BE89C8009029CB /* ScrollTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC814FF227BE89C8009029CB /* ScrollTestView.swift */; };
 		FC94716825F3D81F00BA0393 /* TotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC94716725F3D81F00BA0393 /* TotalView.swift */; };
 		FC9471D625FCFDD700BA0393 /* PickerTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9471D525FCFDD700BA0393 /* PickerTestView.swift */; };
+		FC96F92C291148D00007C81B /* TextTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC96F92B291148D00007C81B /* TextTransition.swift */; };
 		FCAE1CF7269E0047001F76FA /* MapTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAE1CF6269E0047001F76FA /* MapTestView.swift */; };
 		FCB6ECE428B95639006B0ABE /* TextFiltering.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB6ECE328B95639006B0ABE /* TextFiltering.swift */; };
 		FCBB939A27B6CB12001548A8 /* MaskScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBB939927B6CB12001548A8 /* MaskScroll.swift */; };
 		FCC061A8263C283F00379412 /* TextviewWithScrollview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC061A7263C283F00379412 /* TextviewWithScrollview.swift */; };
+		FCC10802290193CD00BB1196 /* ImageMaskingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC10801290193CD00BB1196 /* ImageMaskingView.swift */; };
 		FCC204E828FF0F0100AFD6E1 /* BotToTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC204E728FF0F0100AFD6E1 /* BotToTopView.swift */; };
 		FCD4E348280AF58100808073 /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD4E347280AF58100808073 /* ProfileActionButtonView.swift */; };
 		FCD4E34A280AF68000808073 /* ProfileContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD4E349280AF68000808073 /* ProfileContainerView.swift */; };
@@ -62,10 +64,12 @@
 		FC814FF227BE89C8009029CB /* ScrollTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTestView.swift; sourceTree = "<group>"; };
 		FC94716725F3D81F00BA0393 /* TotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalView.swift; sourceTree = "<group>"; };
 		FC9471D525FCFDD700BA0393 /* PickerTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTestView.swift; sourceTree = "<group>"; };
+		FC96F92B291148D00007C81B /* TextTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTransition.swift; sourceTree = "<group>"; };
 		FCAE1CF6269E0047001F76FA /* MapTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTestView.swift; sourceTree = "<group>"; };
 		FCB6ECE328B95639006B0ABE /* TextFiltering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFiltering.swift; sourceTree = "<group>"; };
 		FCBB939927B6CB12001548A8 /* MaskScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskScroll.swift; sourceTree = "<group>"; };
 		FCC061A7263C283F00379412 /* TextviewWithScrollview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextviewWithScrollview.swift; sourceTree = "<group>"; };
+		FCC10801290193CD00BB1196 /* ImageMaskingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageMaskingView.swift; sourceTree = "<group>"; };
 		FCC204E728FF0F0100AFD6E1 /* BotToTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotToTopView.swift; sourceTree = "<group>"; };
 		FCD4E347280AF58100808073 /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
 		FCD4E349280AF68000808073 /* ProfileContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileContainerView.swift; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 				FCE6E6E428FDC29400564BA4 /* SafeTestView.swift */,
 				7C8EF979290065AD00250CCF /* AnimScroll.swift */,
 				FCC204E728FF0F0100AFD6E1 /* BotToTopView.swift */,
+				FCC10801290193CD00BB1196 /* ImageMaskingView.swift */,
+				FC96F92B291148D00007C81B /* TextTransition.swift */,
 				FCE6E6B228F83E1D00564BA4 /* UIKitButtonView.xib */,
 				FCE6E6B628F8402400564BA4 /* FromXIBView.xib */,
 				FCE8EFAD25C452B000F9F0BE /* Assets.xcassets */,
@@ -236,6 +242,7 @@
 				FC5723ED285BCBCC00E5136A /* ListHeaders.swift in Sources */,
 				FCDCBA0028A52C8300D15CD9 /* EmbedScrollView.swift in Sources */,
 				FC001796282B01C9009296C4 /* ChatView.swift in Sources */,
+				FC96F92C291148D00007C81B /* TextTransition.swift in Sources */,
 				FC9471D625FCFDD700BA0393 /* PickerTestView.swift in Sources */,
 				FC814FF327BE89C8009029CB /* ScrollTestView.swift in Sources */,
 				FC33C3E728CB61920006F126 /* ImageMask.swift in Sources */,
@@ -258,6 +265,7 @@
 				FCE8EFAA25C452B000F9F0BE /* CircleProgApp.swift in Sources */,
 				FC0E8955265ED5970000166B /* GradBars.swift in Sources */,
 				FCE6E6B128F83D2700564BA4 /* WithUIKitButton.swift in Sources */,
+				FCC10802290193CD00BB1196 /* ImageMaskingView.swift in Sources */,
 				FCD4E348280AF58100808073 /* ProfileActionButtonView.swift in Sources */,
 				FC1D50AC2879ECB200E18AB7 /* ImageAnim.swift in Sources */,
 				FC2077A327A1805000C9D3CA /* TestLoaderView.swift in Sources */,

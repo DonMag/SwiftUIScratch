@@ -10,6 +10,7 @@ import SwiftUI
 struct BotToTopView: View {
 	let designImage = Image("swiftRed")
 	var body: some View {
+		
 		VStack {
 			Image("blankBag")
 				.resizable()
@@ -18,36 +19,47 @@ struct BotToTopView: View {
 				.frame(width: UIScreen.main.bounds.width - 40.0,alignment: .center)
 				.cornerRadius(16)
 				.shadow(color: Color.black, radius: 8, x: 0, y: 0)
-
 				.overlay(
 					designImage
 						.resizable()
-						.offset(x: 30, y: 76)
-						.frame(width: 180, height: 180)
+						.offset(x: 30 + 70, y: 76 + 70)
+						.frame(width: 240, height: 240)
+				)
+				.clipped()
+				.overlay(
+					Image("BagWithCutout")
+						.resizable()
+						.scaledToFill()
+						.cornerRadius(16)
 				)
 			
-//				.overlay(canvasBottom.padding(),alignment: .bottomTrailing)
+			//			HStack{
+			//				TowerView().padding()
+			//			}
+		}.padding()
+
+		
+//		VStack {
+//			Image("blankBag")
+//				.resizable()
+//				.scaledToFill()
+//				.aspectRatio(3/(false ? 3 : 4), contentMode: .fit)
+//				.frame(width: UIScreen.main.bounds.width - 40.0,alignment: .center)
+//				.cornerRadius(16)
+//				.shadow(color: Color.black, radius: 8, x: 0, y: 0)
+//
 //				.overlay(
 //					designImage
 //						.resizable()
-//						.offset(x: imageOffset.width,y: imageOffset.height)
-//						.scaleEffect(imageScale)
-//						.mask(svgView)
-//						.offset(x: 70,y: 130)
-//						.scaledToFill()
-//						.gesture(canvasMaskedImageDragGesture)
-//						.gesture(canvasMaskMagnificationGesture)
+//						.offset(x: 30, y: 76)
+//						.frame(width: 180, height: 180)
 //				)
-			
-//			Image("forShadow")
-//				.cornerRadius(16)
-//				//.overlay(RoundedRectangle(cornerRadius: 16)
-//				.shadow(radius: 16)
-
-//			HStack{
-//				TowerView().padding()
-//			}
-		}.padding()
+//
+//
+////			HStack{
+////				TowerView().padding()
+////			}
+//		}.padding()
 	}
 }
 
