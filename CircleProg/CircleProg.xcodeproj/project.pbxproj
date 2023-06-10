@@ -13,18 +13,23 @@
 		FC0E8955265ED5970000166B /* GradBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E8954265ED5970000166B /* GradBars.swift */; };
 		FC1D50AC2879ECB200E18AB7 /* ImageAnim.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1D50AB2879ECB200E18AB7 /* ImageAnim.swift */; };
 		FC2077A327A1805000C9D3CA /* TestLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2077A227A1805000C9D3CA /* TestLoaderView.swift */; };
+		FC317AF629CDE49000ED52E6 /* StackIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC317AF529CDE49000ED52E6 /* StackIssueView.swift */; };
 		FC33C3DD28C1430B0006F126 /* CustomField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC33C3DC28C1430B0006F126 /* CustomField.swift */; };
 		FC33C3E728CB61920006F126 /* ImageMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC33C3E628CB61920006F126 /* ImageMask.swift */; };
 		FC53247128D2077B004DE16D /* StackSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC53247028D2077B004DE16D /* StackSpace.swift */; };
+		FC54979E2A35127C00CBC597 /* KaayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54979D2A35127C00CBC597 /* KaayView.swift */; };
 		FC5717B2271F0582008318F5 /* ActivityCircleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5717B1271F0582008318F5 /* ActivityCircleComponent.swift */; };
 		FC5723ED285BCBCC00E5136A /* ListHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5723EC285BCBCC00E5136A /* ListHeaders.swift */; };
 		FC6EC4FA272B073D002E1D50 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6EC4F9272B073D002E1D50 /* Padding.swift */; };
 		FC6EC501272C26F1002E1D50 /* SmoothArcExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6EC500272C26F1002E1D50 /* SmoothArcExample.swift */; };
 		FC7C1EFB2762A7DF0013C10E /* ExpandableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7C1EFA2762A7DF0013C10E /* ExpandableView.swift */; };
 		FC814FF327BE89C8009029CB /* ScrollTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC814FF227BE89C8009029CB /* ScrollTestView.swift */; };
+		FC85AD7C294DFD8000C07A3C /* MultiDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85AD7B294DFD8000C07A3C /* MultiDateView.swift */; };
 		FC94716825F3D81F00BA0393 /* TotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC94716725F3D81F00BA0393 /* TotalView.swift */; };
 		FC9471D625FCFDD700BA0393 /* PickerTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9471D525FCFDD700BA0393 /* PickerTestView.swift */; };
 		FC96F92C291148D00007C81B /* TextTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC96F92B291148D00007C81B /* TextTransition.swift */; };
+		FCA3FAFC29899CA400165901 /* ConView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA3FAFB29899CA400165901 /* ConView.swift */; };
+		FCA3FB23298D460F00165901 /* Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA3FB22298D460F00165901 /* Pickers.swift */; };
 		FCAE1CF7269E0047001F76FA /* MapTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAE1CF6269E0047001F76FA /* MapTestView.swift */; };
 		FCB6ECE428B95639006B0ABE /* TextFiltering.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB6ECE328B95639006B0ABE /* TextFiltering.swift */; };
 		FCBB939A27B6CB12001548A8 /* MaskScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBB939927B6CB12001548A8 /* MaskScroll.swift */; };
@@ -40,6 +45,8 @@
 		FCE6E6B328F83E1D00564BA4 /* UIKitButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE6E6B228F83E1D00564BA4 /* UIKitButtonView.xib */; };
 		FCE6E6B728F8402400564BA4 /* FromXIBView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE6E6B628F8402400564BA4 /* FromXIBView.xib */; };
 		FCE6E6E528FDC29400564BA4 /* SafeTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE6E6E428FDC29400564BA4 /* SafeTestView.swift */; };
+		FCE757532950921500710AF2 /* Walkthrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE757522950921500710AF2 /* Walkthrough.swift */; };
+		FCE75796295CA0F400710AF2 /* EqualHeights.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE75795295CA0F400710AF2 /* EqualHeights.swift */; };
 		FCE8EFAA25C452B000F9F0BE /* CircleProgApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8EFA925C452B000F9F0BE /* CircleProgApp.swift */; };
 		FCE8EFAC25C452B000F9F0BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8EFAB25C452B000F9F0BE /* ContentView.swift */; };
 		FCE8EFAE25C452B000F9F0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE8EFAD25C452B000F9F0BE /* Assets.xcassets */; };
@@ -53,18 +60,23 @@
 		FC0E8954265ED5970000166B /* GradBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradBars.swift; sourceTree = "<group>"; };
 		FC1D50AB2879ECB200E18AB7 /* ImageAnim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnim.swift; sourceTree = "<group>"; };
 		FC2077A227A1805000C9D3CA /* TestLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLoaderView.swift; sourceTree = "<group>"; };
+		FC317AF529CDE49000ED52E6 /* StackIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackIssueView.swift; sourceTree = "<group>"; };
 		FC33C3DC28C1430B0006F126 /* CustomField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomField.swift; sourceTree = "<group>"; };
 		FC33C3E628CB61920006F126 /* ImageMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageMask.swift; sourceTree = "<group>"; };
 		FC53247028D2077B004DE16D /* StackSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackSpace.swift; sourceTree = "<group>"; };
+		FC54979D2A35127C00CBC597 /* KaayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaayView.swift; sourceTree = "<group>"; };
 		FC5717B1271F0582008318F5 /* ActivityCircleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCircleComponent.swift; sourceTree = "<group>"; };
 		FC5723EC285BCBCC00E5136A /* ListHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaders.swift; sourceTree = "<group>"; };
 		FC6EC4F9272B073D002E1D50 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
 		FC6EC500272C26F1002E1D50 /* SmoothArcExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothArcExample.swift; sourceTree = "<group>"; };
 		FC7C1EFA2762A7DF0013C10E /* ExpandableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableView.swift; sourceTree = "<group>"; };
 		FC814FF227BE89C8009029CB /* ScrollTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTestView.swift; sourceTree = "<group>"; };
+		FC85AD7B294DFD8000C07A3C /* MultiDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDateView.swift; sourceTree = "<group>"; };
 		FC94716725F3D81F00BA0393 /* TotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalView.swift; sourceTree = "<group>"; };
 		FC9471D525FCFDD700BA0393 /* PickerTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTestView.swift; sourceTree = "<group>"; };
 		FC96F92B291148D00007C81B /* TextTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTransition.swift; sourceTree = "<group>"; };
+		FCA3FAFB29899CA400165901 /* ConView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConView.swift; sourceTree = "<group>"; };
+		FCA3FB22298D460F00165901 /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
 		FCAE1CF6269E0047001F76FA /* MapTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTestView.swift; sourceTree = "<group>"; };
 		FCB6ECE328B95639006B0ABE /* TextFiltering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFiltering.swift; sourceTree = "<group>"; };
 		FCBB939927B6CB12001548A8 /* MaskScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskScroll.swift; sourceTree = "<group>"; };
@@ -80,6 +92,8 @@
 		FCE6E6B228F83E1D00564BA4 /* UIKitButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UIKitButtonView.xib; sourceTree = "<group>"; };
 		FCE6E6B628F8402400564BA4 /* FromXIBView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FromXIBView.xib; sourceTree = "<group>"; };
 		FCE6E6E428FDC29400564BA4 /* SafeTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeTestView.swift; sourceTree = "<group>"; };
+		FCE757522950921500710AF2 /* Walkthrough.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walkthrough.swift; sourceTree = "<group>"; };
+		FCE75795295CA0F400710AF2 /* EqualHeights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualHeights.swift; sourceTree = "<group>"; };
 		FCE8EFA625C452B000F9F0BE /* CircleProg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleProg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE8EFA925C452B000F9F0BE /* CircleProgApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgApp.swift; sourceTree = "<group>"; };
 		FCE8EFAB25C452B000F9F0BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -151,6 +165,13 @@
 				FCC204E728FF0F0100AFD6E1 /* BotToTopView.swift */,
 				FCC10801290193CD00BB1196 /* ImageMaskingView.swift */,
 				FC96F92B291148D00007C81B /* TextTransition.swift */,
+				FC85AD7B294DFD8000C07A3C /* MultiDateView.swift */,
+				FCE757522950921500710AF2 /* Walkthrough.swift */,
+				FCE75795295CA0F400710AF2 /* EqualHeights.swift */,
+				FCA3FAFB29899CA400165901 /* ConView.swift */,
+				FCA3FB22298D460F00165901 /* Pickers.swift */,
+				FC317AF529CDE49000ED52E6 /* StackIssueView.swift */,
+				FC54979D2A35127C00CBC597 /* KaayView.swift */,
 				FCE6E6B228F83E1D00564BA4 /* UIKitButtonView.xib */,
 				FCE6E6B628F8402400564BA4 /* FromXIBView.xib */,
 				FCE8EFAD25C452B000F9F0BE /* Assets.xcassets */,
@@ -251,8 +272,12 @@
 				FCC061A8263C283F00379412 /* TextviewWithScrollview.swift in Sources */,
 				FCE6E6E528FDC29400564BA4 /* SafeTestView.swift in Sources */,
 				FCB6ECE428B95639006B0ABE /* TextFiltering.swift in Sources */,
+				FC85AD7C294DFD8000C07A3C /* MultiDateView.swift in Sources */,
 				FCDCBA6E28B021AB00D15CD9 /* RandArray.swift in Sources */,
+				FCE757532950921500710AF2 /* Walkthrough.swift in Sources */,
+				FCA3FB23298D460F00165901 /* Pickers.swift in Sources */,
 				FC53247128D2077B004DE16D /* StackSpace.swift in Sources */,
+				FC317AF629CDE49000ED52E6 /* StackIssueView.swift in Sources */,
 				FCD4E34A280AF68000808073 /* ProfileContainerView.swift in Sources */,
 				FC6EC4FA272B073D002E1D50 /* Padding.swift in Sources */,
 				7C9480002810700B0051ABEB /* ScrollDown.swift in Sources */,
@@ -263,10 +288,13 @@
 				FCAE1CF7269E0047001F76FA /* MapTestView.swift in Sources */,
 				7C8EF97A290065AD00250CCF /* AnimScroll.swift in Sources */,
 				FCE8EFAA25C452B000F9F0BE /* CircleProgApp.swift in Sources */,
+				FCA3FAFC29899CA400165901 /* ConView.swift in Sources */,
 				FC0E8955265ED5970000166B /* GradBars.swift in Sources */,
 				FCE6E6B128F83D2700564BA4 /* WithUIKitButton.swift in Sources */,
 				FCC10802290193CD00BB1196 /* ImageMaskingView.swift in Sources */,
+				FCE75796295CA0F400710AF2 /* EqualHeights.swift in Sources */,
 				FCD4E348280AF58100808073 /* ProfileActionButtonView.swift in Sources */,
+				FC54979E2A35127C00CBC597 /* KaayView.swift in Sources */,
 				FC1D50AC2879ECB200E18AB7 /* ImageAnim.swift in Sources */,
 				FC2077A327A1805000C9D3CA /* TestLoaderView.swift in Sources */,
 				FC7C1EFB2762A7DF0013C10E /* ExpandableView.swift in Sources */,

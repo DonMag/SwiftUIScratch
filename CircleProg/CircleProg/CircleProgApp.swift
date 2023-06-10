@@ -42,7 +42,23 @@ struct CircleProgApp: App {
 			//SafeTestView()
 			//BotToTopView()
 			//ImageMaskingView()
-			TextTransition()
+			//TextTransition()
+			if #available(iOS 16.0, *) {
+				//MultiDateView()
+			} else {
+				// Fallback on earlier versions
+			}
+			//WalkthroughView()
+			//EqualHeights()
+			//TestView()
+			//Pickers()
+			if #available(iOS 16.0, *) {
+				//StackIssueView()
+				//JpegView()
+			} else {
+				// Fallback on earlier versions
+			}
+			KaayView()
 			//BoxesView().environmentObject(timeObject)
         }
     }
